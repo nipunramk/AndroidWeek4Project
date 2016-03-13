@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        context = MainActivity.this;
 
         Parse.initialize(getApplicationContext(), "IU2D1ej4N8QcYVLhzYLU5Kpmbz7j0N9KBauQ8a1A",
                 "w6j6KHFyEi1LLCymib2XcKXr9D2LmsZ7qFVUhE6P");
